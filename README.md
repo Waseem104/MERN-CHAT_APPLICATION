@@ -6,11 +6,9 @@ A real-time chat application built with React, Node.js, Express, and Socket.IO.
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Environment Variables](#environment-variables)
 - [Scripts](#scripts)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## Features
 
@@ -30,17 +28,6 @@ A real-time chat application built with React, Node.js, Express, and Socket.IO.
 2. Install dependencies for both backend and frontend:
    ```bash
    npm install
-   
-## Usage
-Development
-To run the application in development mode, use the following command:
-npm run dev
-This will start both the backend and frontend servers concurrently.
-
-Production
-To build the frontend and start the backend server, use the following commands:
-npm run build
-npm start
 
 ## Environment Variables
 Create a .env file in the backend directory and add the following environment variables:
@@ -82,31 +69,3 @@ MongoDB
 Mongoose
 JWT (JSON Web Tokens)
 Cloudinary (for image uploads)
-## License
-
-### Additional Notes:
-
-1. **Replace Placeholder Values**:
-   - Replace `yourusername` in the clone URL with your actual GitHub username.
-   - Replace `your_mongodb_connection_string`, `your_jwt_secret_key`, `your_cloudinary_cloud_name`, `your_cloudinary_api_key`, and `your_cloudinary_secret_key` with your actual values.
-
-2. **Ensure Dependencies**:
-   - Make sure all dependencies mentioned in the `README.md` are installed and configured correctly in your project.
-
-3. **Update License**:
-   - If you have a different license, update the license section accordingly.
-
-This `README.md` provides a comprehensive guide for setting up and running your chat application.
-### Additional Notes:
-
-1. **Replace Placeholder Values**:
-   - Replace `yourusername` in the clone URL with your actual GitHub username.
-   - Replace `your_mongodb_connection_string`, `your_jwt_secret_key`, `your_cloudinary_cloud_name`, `your_cloudinary_api_key`, and `your_cloudinary_secret_key` with your actual values.
-
-2. **Ensure Dependencies**:
-   - Make sure all dependencies mentioned in the `README.md` are installed and configured correctly in your project.
-
-3. **Update License**:
-   - If you have a different license, update the license section accordingly.
-
-This `README.md` provides a comprehensive guide for setting up and running your chat application.
