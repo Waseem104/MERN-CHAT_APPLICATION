@@ -27,16 +27,6 @@ A real-time chat application built with React, Node.js, Express, and Socket.IO.
    ```bash
    git clone https://github.com/yourusername/chat-app.git
    cd chat-app
-   # Chat App
-
-A real-time chat application built with React, Node.js, Express, and Socket.IO.
-
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/chat-app.git
-   cd chat-app
 2. Install dependencies for both backend and frontend:
    ```bash
    npm install
@@ -44,13 +34,11 @@ A real-time chat application built with React, Node.js, Express, and Socket.IO.
 ## Usage
 Development
 To run the application in development mode, use the following command:
-```bash
 npm run dev
 This will start both the backend and frontend servers concurrently.
 
 Production
 To build the frontend and start the backend server, use the following commands:
-```bash
 npm run build
 npm start
 
