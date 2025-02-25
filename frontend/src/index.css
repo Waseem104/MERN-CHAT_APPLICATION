@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chat-bubble-primary {
+  @apply bg-primary text-primary-content;
+}
+
+.chat-bubble-secondary {
+  @apply bg-base-200 text-base-content;
+}
+
+.chat-bubble img {
+  @apply transition-transform duration-200 hover:scale-105;
+}
