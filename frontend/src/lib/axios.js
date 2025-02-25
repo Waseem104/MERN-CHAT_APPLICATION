@@ -9,16 +9,4 @@ const axiosInstance = axios.create({
   timeout: 5000,
 });
 
-// response interceptor for error handling
-axiosInstance.interceptors.response.use(
-  (response) => response,
-  (error) => {
-    if (error.response?.status === 401) {
-      // Handle unauthorized access
-      window.location.href = "/login";
-    }
-    return Promise.reject(error);
-  }
-);
-
 export default axiosInstance;
